@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+.clearfix{
+    margin:0px 75px 50px 100px;
+}
+    
+#kiri
+     {
+     width:40%;
+     height:70px;
+     float:left;
+    
+    margin-bottom:30px;
+    padding-left:80px
+    
+
+
+     }
+
+#kanan
+     {
+     width:50%;
+     height:70px;
+     float:right;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size:14px;
+     color:red;
+     margin-top:0px;
+     text-align:center;
+    margin-bottom:30px;
+    
+    
+     }
+#kanan p{
+    padding-left:170px
+}
+
+.demo-4{
+    overflow: hidden;
+    width: 300px;
+    padding-left:305px;
+    white-space: nowrap;
+    margin-top:0px
+	
+    
+   
+}
+.demo-4 input#search{
+  width: 285px;
+  height: 30px;
+  background-color: rgba(235,235,235,1);
+  border: none;
+  font-size: 10pt;
+  float: left;
+  padding-left: 10px;
+
+  
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.demo-4 input#search::-webkit-input-placeholder {
+   color:rgba(153,153,153,1);
+}
+.demo-4 input#search:-moz-placeholder { 
+   color: #ffffff;  
+}
+.demo-4 input#search::-moz-placeholder {  
+   color: #ffffff;  
+}
+.demo-4 input#search:-ms-input-placeholder {  
+   color: #ffffff;  
+}
+
+.demo-4 button.icon{
+  border: none;
+  background: rgba(235,235,235,1) url(../images/Forma-1.png)center no-repeat;
+  height: 25px;
+  width: 25px;
+  color: #4f5b66;
+  opacity: 0;
+  font-size: 10pt;
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+
+  .demo-4:hover button.icon, .demo-4:active button.icon, .demo-4:focus button.icon{
+    outline:none;
+    opacity: 1;
+    margin-left: -50px;
+  }
+
+input::placeholder {
+
+}	
+
+
+#float{
+    margin-top:60px
+    
+}
+#float li {
+    background:rgba(0,69,171,1);
+    float: left;
+    list-style: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left:50px;
+    padding-right:40px;
+    
+}
+
+#float li a {
+    border-left: 2px  rgba(0, 0, 0, 0.2);
+    border-right: 1px  rgba(0, 0, 0, 0.2);
+    color: white;
+    font-variant: none;
+    text-decoration:none;
+    padding: 10px 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-justify:auto;
+	padding-left:30px;
+}
+#float li a:hover{
+	background-color:rgba(0,51,255,1);
+	}
+
+
+#slidecontainer{
+	margin:0px 50px 50px 81px;
+    
+
+}
+
+
+
+#kiri2
+     {
+     width:45%;
+     height:500px;
+     float:left;
+	 font-family:Arial, Helvetica, sans-serif;
+     font-size:25px;
+     color:red;
+    margin-left:80px;
+    
+    }
+
+#kiri2 h4{
+color:rgba(66,119,184,1);
+    font-size:18px
+}
+#kiri2 p{
+    font-size:16px;
+    text-indent: inherit;
+    color:black;
+}
+#kiri2 ul{
+    font-size:15px;
+    margin-top:75px;
+    padding-left:0px;
+    
+}
+#kiri2 a{
+    text-decoration:none;
+}
+
+#news{
+    height:680px;
+    margin-top:40px
+}
+#main{
+    margin-left:190px;
+    font-size:20px;
+    color:black;
+    
+    
+}
+#main p{
+    margin-top:0px;
+    
+}
+#main a{
+    color:black;
+}
+#main a:hover{
+    text-decoration:none;
+    color:blue;
+    
+    
+}
+#main a p{
+    color:red;
+    margin-top:20px;
+    margin-bottom:42px;
+    margin-left:0px;
+    margin-right:310px
+}
+#main a p:hover{
+    text-decoration:underline;
+    color:blue;
+}
+}
+#kiri2 ul a{
+   color:rgba(66,119,184,1);
+    text-decoration:none;
+}
+#kiri2 ul a:hover{
+    color:red;
+    text-decoration:underline;
+}
+#kanan2
+     {
+     width:35%;
+     height:700px;
+     float:right;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size:25px;
+     color:red;
+     margin-right:100px;
+	 }
+
+#kanan2 ul{
+    font-size:18px;
+    margin-bottom:30px;
+    margin-right:20px;
+    padding-left:0px;
+   
+    
+    
+}
+#kanan2 ul a{
+    color:rgba(66,119,184,1);
+    text-decoration:none;
+    
+   
+}
+#kanan2 ul a:hover{
+    color:red;
+    
+}
+
+#imgkanan{
+    padding-bottom:30px;
+}
