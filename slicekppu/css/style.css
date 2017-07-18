@@ -1,46 +1,84 @@
 @charset "utf-8";
 /* CSS Document */
-.clearfix{
-    margin:0px 75px 50px 100px;
+   
 }
     
 #kiri
      {
-     width:40%;
-     height:70px;
-     float:left;
+     width:50%%;
+     height:400px;
+    background-color:white;
+        float:left;
     
-    margin-bottom:30px;
-    padding-left:80px
-    
-
-
      }
 
 #kanan
      {
-     width:50%;
-     height:70px;
+     width:22.6%;
+     height:100px;
      float:right;
      font-family:Arial, Helvetica, sans-serif;
      font-size:14px;
      color:red;
-     margin-top:0px;
-     text-align:center;
-    margin-bottom:30px;
+     text-align:left;
+    background-color: white;
+    margin:0 auto;
     
     
      }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height:;
+
+}
+.clearfix { display: inline-block;
+    width:1254px;
+    margin:0 auto;
+    background-color: white;
+}
+.clearfix nav{
+    width:100%;
+    margin:0 auto;
+    background-color:rgba(0,69,171,1);
+    
+    
+    
+}
+.clearfix #kiri{
+    float:left;
+    margin-top:10px;
+    
+}
+
+}
+.clearfix #kanan{
+    width:500px;
+    float:right;
+    
+}
+
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+  
+}
 #kanan p{
-    padding-left:170px
+    padding-left:0px;
+    margin-left:291px;
+    float:left;
 }
 
 .demo-4{
     overflow: hidden;
-    width: 300px;
-    padding-left:305px;
     white-space: nowrap;
-    margin-top:0px
+    float:right;
+    
 	
     
    
@@ -52,7 +90,7 @@
   border: none;
   font-size: 10pt;
   float: left;
-  padding-left: 10px;
+  padding-left: 15px;
 
   
   -webkit-transition: all .55s ease;
@@ -94,26 +132,30 @@
   .demo-4:hover button.icon, .demo-4:active button.icon, .demo-4:focus button.icon{
     outline:none;
     opacity: 1;
-    margin-left: -50px;
+    margin-left: -30px;
   }
 
 input::placeholder {
-
 }	
 
 
 #float{
-    margin-top:60px
+   
+    margin:0 auto;
+    width:100%px;
     
 }
 #float li {
     background:rgba(0,69,171,1);
-    float: left;
     list-style: none;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left:50px;
-    padding-right:40px;
+    display:inline;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:67.53px;
+    padding-right:67px;
+    margin:0 auto;
+    float:left;
+    font-family:roboto bold;
     
 }
 
@@ -123,10 +165,9 @@ input::placeholder {
     color: white;
     font-variant: none;
     text-decoration:none;
-    padding: 10px 30px;
 	font-family:Arial, Helvetica, sans-serif;
-	text-justify:auto;
-	padding-left:30px;
+    display:inline;
+    max-width: 1334px;
 }
 #float li a:hover{
 	background-color:rgba(0,51,255,1);
@@ -134,58 +175,107 @@ input::placeholder {
 
 
 #slidecontainer{
-	margin:0px 50px 50px 81px;
-    
-
+	
+    width:1200px;
+    margin:0 auto;
+    padding:0px 27px;
+    background-color:white;
 }
-
-
+#css3slider{
+    
+}
+main{
+    height:2400px;
+    z-index:1;
+    background-color: rgb(217,217,217);
+    width:1332px;
+    margin:0 auto;
+    
+}
 
 #kiri2
      {
-     width:45%;
-     height:500px;
+     width:50%;
+     height:1530px;
      float:left;
 	 font-family:Arial, Helvetica, sans-serif;
      font-size:25px;
      color:red;
-    margin-left:80px;
+    margin-left:px;
+    padding-left:30px;
+         background-color: white;
+         
     
     }
+#kiri2 img{
+    vertical-align:middle;
+}
 
+#kiri2 h3{
+    font-family:roboto;
+    font-size:26px;
+}
+#kanan2 h3{
+    font-family:"roboto";
+    font-size:26px;
+       
+    
+}
+
+#bar{
+    width:auto;
+    background-color:rgba(0,69,171,1);
+    margin:0 auto;
+    
+}
 #kiri2 h4{
 color:rgba(66,119,184,1);
     font-size:18px
 }
+
 #kiri2 p{
     font-size:16px;
     text-indent: inherit;
     color:black;
+    
 }
+
 #kiri2 ul{
     font-size:15px;
     margin-top:75px;
     padding-left:0px;
+    margin-right:170px;
     
 }
+
 #kiri2 a{
     text-decoration:none;
+
 }
 
 #news{
-    height:680px;
-    margin-top:40px
+    height:700px;
+    margin-top:40px;
 }
 #main{
-    margin-left:190px;
-    font-size:20px;
+    margin-left:0px;
+    font-size:18px;
     color:black;
     
     
 }
 #main p{
     margin-top:0px;
+    margin-right:14px;
+    font-family:roboto regular,sans-serif;
     
+    
+}
+#main h5{
+    font-family:roboto medium;
+    font-size:18px;
+    margin-bottom:0px;
+    padding-top:0px;
 }
 #main a{
     color:black;
@@ -198,10 +288,9 @@ color:rgba(66,119,184,1);
 }
 #main a p{
     color:red;
-    margin-top:20px;
-    margin-bottom:42px;
-    margin-left:0px;
-    margin-right:310px
+    margin-bottom:px;
+    margin-right:320px;
+    margin-left:140px;
 }
 #main a p:hover{
     text-decoration:underline;
@@ -218,29 +307,31 @@ color:rgba(66,119,184,1);
 }
 #kanan2
      {
-     width:35%;
-     height:700px;
+     width:40%;
+     height:1530px;
      float:right;
      font-family:Arial, Helvetica, sans-serif;
      font-size:25px;
      color:red;
-     margin-right:100px;
-	 }
+     margin-right:auto;
+    background-color: white;
+}
 
 #kanan2 ul{
     font-size:18px;
     margin-bottom:30px;
     margin-right:20px;
     padding-left:0px;
-   
-    
-    
+    font-family:"lato black",sans-serif;
+      
+}
+#kanan2 img{
+    vertical-align:middle;
 }
 #kanan2 ul a{
     color:rgba(66,119,184,1);
     text-decoration:none;
-    
-   
+      
 }
 #kanan2 ul a:hover{
     color:red;
@@ -249,4 +340,28 @@ color:rgba(66,119,184,1);
 
 #imgkanan{
     padding-bottom:30px;
+}
+#imgkanan a:hover{
+
+}
+footer{
+  
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto;
+    
+     
+}
+#illustration{
+    z-index: 2;
+    background-color:rgb(0,69,171);
+    width:100%;
+    margin: 0 auto;
+       
+}
+#smallcontent{
+    width:100%;
+    height:400px;
+    margin:0 auto;
+    background-color:rgb(0,69,171);
 }
