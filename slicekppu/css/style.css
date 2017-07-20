@@ -1,31 +1,136 @@
 @charset "utf-8";
 /* CSS Document */
-   
+
+@font-face {
+    font-family: 'latobold';
+    src: url('lato-bold-webfont.eot');
+    src: url('lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-bold-webfont.woff2') format('woff2'),
+         url('lato-bold-webfont.woff') format('woff'),
+         url('lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.eot');
+    src: url('lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-regular-webfont.woff2') format('woff2'),
+         url('lato-regular-webfont.woff') format('woff'),
+         url('lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.eot');
+    src: url('roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-medium-webfont.woff2') format('woff2'),
+         url('roboto-medium-webfont.woff') format('woff'),
+         url('roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('lato-black-webfont.eot');
+    src: url('lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-black-webfont.woff2') format('woff2'),
+         url('lato-black-webfont.woff') format('woff'),
+         url('lato-black-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('roboto-black-webfont.eot');
+    src: url('roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-black-webfont.woff2') format('woff2'),
+         url('roboto-black-webfont.woff') format('woff'),
+         url('roboto-black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.eot');
+    src: url('roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff'),
+         url('roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.eot');
+    src: url('roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff'),
+         url('roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+   
+#kiri{
+    width:500px;
+    margin-right:40px;
+    display:inline-block;
+    margin-top:5px;
     
-#kiri
-     {
-     width:50%%;
-     height:400px;
-    background-color:white;
-        float:left;
-    
-     }
+}
 
 #kanan
      {
-     width:22.6%;
-     height:100px;
+     width:300px;
+     height:90px;
      float:right;
-     font-family:Arial, Helvetica, sans-serif;
+     font-family:'roboto regular';
      font-size:14px;
      color:red;
      text-align:left;
     background-color: white;
     margin:0 auto;
+    display:inline-block;
     
     
      }
+header{
+    width:1200px;
+    padding-top:20px;
+    margin:0 auto;
+}
 
 .clearfix:after {
   visibility: hidden;
@@ -37,31 +142,13 @@
 
 }
 .clearfix { display: inline-block;
-    width:1254px;
     margin:0 auto;
-    background-color: white;
-}
-.clearfix nav{
-    width:100%;
-    margin:0 auto;
-    background-color:rgba(0,69,171,1);
-    
-    
-    
-}
-.clearfix #kiri{
-    float:left;
-    margin-top:10px;
-    
 }
 
-}
-.clearfix #kanan{
-    width:500px;
-    float:right;
+.container{
     
 }
-
+    
 
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
@@ -69,19 +156,17 @@
   
 }
 #kanan p{
-    padding-left:0px;
-    margin-left:291px;
+    padding-left:px;
     float:left;
+    width:285px;
+    font-family:'roboto regular';
 }
 
 .demo-4{
     overflow: hidden;
     white-space: nowrap;
-    float:right;
-    
-	
-    
-   
+    width:285px;
+
 }
 .demo-4 input#search{
   width: 285px;
@@ -142,32 +227,38 @@ input::placeholder {
 #float{
    
     margin:0 auto;
-    width:100%px;
+    width:1333px;
     
 }
-#float li {
+#float ul {
     background:rgba(0,69,171,1);
     list-style: none;
     display:inline;
     padding-top:20px;
     padding-bottom:20px;
-    padding-left:67.53px;
-    padding-right:67px;
     margin:0 auto;
     float:left;
-    font-family:roboto bold;
+    font-family:'roboto bold';
+    width:100%;
+    
     
 }
-
+#float ul li{
+    display:inline;
+    float:left;
+    padding-left:70px;
+    padding-right:70px;
+}
 #float li a {
     border-left: 2px  rgba(0, 0, 0, 0.2);
     border-right: 1px  rgba(0, 0, 0, 0.2);
+     padding-left:px;
+     padding-right:px;
     color: white;
     font-variant: none;
     text-decoration:none;
 	font-family:Arial, Helvetica, sans-serif;
     display:inline;
-    max-width: 1334px;
 }
 #float li a:hover{
 	background-color:rgba(0,51,255,1);
@@ -185,25 +276,24 @@ input::placeholder {
     
 }
 main{
-    height:2400px;
+    height:2860px;
     z-index:1;
     background-color: rgb(217,217,217);
-    width:1332px;
+    width:100%;
     margin:0 auto;
-    
 }
 
-#kiri2
-     {
-     width:50%;
+
+#kiri2{
+     width:695px;
      height:1530px;
      float:left;
 	 font-family:Arial, Helvetica, sans-serif;
      font-size:25px;
      color:red;
-    margin-left:px;
-    padding-left:30px;
-         background-color: white;
+         margin:0 auto;
+    
+    
          
     
     }
@@ -212,12 +302,13 @@ main{
 }
 
 #kiri2 h3{
-    font-family:roboto;
-    font-size:26px;
+    font-family:'roboto regular';
+    font-size:25px;
 }
+
 #kanan2 h3{
-    font-family:"roboto";
-    font-size:26px;
+    font-family:"roboto regular";
+    font-size:25px;
        
     
 }
@@ -226,17 +317,23 @@ main{
     width:auto;
     background-color:rgba(0,69,171,1);
     margin:0 auto;
+    width:100%;
+    margin:0 auto;
+    background-color:rgba(0,69,171,1);
+    
     
 }
 #kiri2 h4{
 color:rgba(66,119,184,1);
-    font-size:18px
+    font-size:18px;
+    font-family:
 }
 
 #kiri2 p{
     font-size:16px;
     text-indent: inherit;
     color:black;
+    margin
     
 }
 
@@ -261,18 +358,19 @@ color:rgba(66,119,184,1);
     margin-left:0px;
     font-size:18px;
     color:black;
+    margin-right:90px
     
     
 }
 #main p{
     margin-top:0px;
     margin-right:14px;
-    font-family:roboto regular,sans-serif;
+    font-family:'roboto regular',sans-serif;
     
     
 }
 #main h5{
-    font-family:roboto medium;
+    font-family:'roboto medium';
     font-size:18px;
     margin-bottom:0px;
     padding-top:0px;
@@ -307,14 +405,15 @@ color:rgba(66,119,184,1);
 }
 #kanan2
      {
-     width:40%;
+     width:475px;
      height:1530px;
      float:right;
      font-family:Arial, Helvetica, sans-serif;
      font-size:25px;
      color:red;
-     margin-right:auto;
+        
     background-color: white;
+
 }
 
 #kanan2 ul{
@@ -323,10 +422,12 @@ color:rgba(66,119,184,1);
     margin-right:20px;
     padding-left:0px;
     font-family:"lato black",sans-serif;
+    letter-spacing:1px
       
 }
 #kanan2 img{
     vertical-align:middle;
+    padding-right:20px;
 }
 #kanan2 ul a{
     color:rgba(66,119,184,1);
@@ -338,6 +439,7 @@ color:rgba(66,119,184,1);
     
 }
 
+
 #imgkanan{
     padding-bottom:30px;
 }
@@ -346,22 +448,23 @@ color:rgba(66,119,184,1);
 }
 footer{
   
-    position:absolute;
-    margin-left:auto;
-    margin-right:auto;
+    width:100%;
     
      
 }
 #illustration{
-    z-index: 2;
-    background-color:rgb(0,69,171);
-    width:100%;
+    background-image:url(illustration2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:1332px;
+    height:786px;
     margin: 0 auto;
+    
+    
        
 }
-#smallcontent{
-    width:100%;
-    height:400px;
+
+body{
     margin:0 auto;
-    background-color:rgb(0,69,171);
+    width:100%
 }
