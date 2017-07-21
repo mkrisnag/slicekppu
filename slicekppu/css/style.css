@@ -312,7 +312,34 @@ main{
        
     
 }
+.latestnews{
+     width:600px;
+     margin-bottom:50px;
+     
+     
+}
+.latestnews ul{
+     font-size:12px;
+    padding-left:0px;
+    margin-right:170px;
+     font-family:'roboto';
+     letter-spacing:2px;
+    
+}
+.latestnews p{
+     letter-spacing: 0.2px;
+     word-spacing: 0.5px;
+     color:black;
+     font-size:18px;
+}
+.latestnews h4{
+     color:rgba(66,119,184,1);
+    font-size:18px;
+     font-family:'roboto', 'roboto bold';
+     letter-spacing:1.5px;
+     word-spacing: 2px;
 
+}
 #bar{
     width:auto;
     background-color:rgba(0,69,171,1);
@@ -323,74 +350,68 @@ main{
     
     
 }
-#kiri2 h4{
-color:rgba(66,119,184,1);
-    font-size:18px;
-    font-family:
-}
-
-#kiri2 p{
-    font-size:16px;
-    text-indent: inherit;
-    color:black;
-    margin
     
-}
 
-#kiri2 ul{
-    font-size:15px;
-    margin-top:75px;
-    padding-left:0px;
-    margin-right:170px;
-    
-}
 
-#kiri2 a{
-    text-decoration:none;
-
-}
+.text{
+     height:150px;
+     width:600px;
+}   
 
 #news{
-    height:700px;
-    margin-top:40px;
+     margin-right:100px;
+     padding-top:0px;
+     
 }
-#main{
-    margin-left:0px;
+.news{
+     width:400px;
+}
+
+.main{
     font-size:18px;
     color:black;
-    margin-right:90px
-    
+    margin-right:100px;
+    width:400px;
+     margin-left:175px;
+     height:150px;
+     
     
 }
-#main p{
+#news img{
+     width:150px;
+     height:150px;
+}
+.main p{
     margin-top:0px;
-    margin-right:14px;
     font-family:'roboto regular',sans-serif;
     
     
 }
-#main h5{
+.main h5{
     font-family:'roboto medium';
     font-size:18px;
-    margin-bottom:0px;
-    padding-top:0px;
+     font-style: none;
+     width:400px;
+     height:30px;
+     
 }
-#main a{
+
+.main a{
     color:black;
+     text-decoration:none;
+
 }
-#main a:hover{
+.main a:hover{
     text-decoration:none;
     color:blue;
     
     
 }
-#main a p{
+.main a p{
     color:red;
-    margin-bottom:px;
-    margin-right:320px;
-    margin-left:140px;
+    width:110px;
 }
-#main a p:hover{
+.main a p:hover{
     text-decoration:underline;
     color:blue;
 }
