@@ -114,9 +114,13 @@
    opacity: .3;
    pointer-events: none;
    height: 4800px;
-}
-*/
-   
+}*/
+
+ body{
+    margin:0 auto;
+    width:100%;
+     
+}  
 #kiri{
     width:500px;
     margin-right:50px;
@@ -196,6 +200,7 @@ header{
   padding-left: 30px;
      position: absolute;
      letter-spacing:4px;
+     
 
 }
 
@@ -504,26 +509,240 @@ margin-top:0px;
 }
 footer{
      
-  width:100%;
-    margin:0 auto;
-     
-     
-}
-#illustration{
-    
-    background-image:url(illustration2.png);
+  background-image:url(illustration2.png);
     background-repeat: no-repeat;
     width:100%;
     height:800px;
     margin: 0 auto;
     background-position:center;
     
-    
-       
-}
-
-body{
-    margin:0 auto;
-    width:100%;
      
 }
+#footercontent{
+     margin:0 auto;
+          width:1200px;
+     padding-top:389px;
+     height:400px;
+
+     
+}
+#leftfooter{
+     float:left;
+     width:160px;
+     height:46px;
+     margin-left:px;
+     position:absolute;
+
+}
+
+#leftfooter ul{
+     
+                padding-left:0px;
+     position:absolute;
+     margin-bottom:0px;
+     
+            }
+            
+#leftfooter ul li{
+                display:inline-block;
+            }
+            
+#leftfooter ul li a{
+                display:block;
+                width:42px;
+                height:42px;
+     margin-left:7.5px;
+            }
+            
+#leftfooter         a.icon{
+                background-image:url('sprite.png');
+            }
+            
+  #leftfooter          a.facebook{
+                background-position: 2px 0px;
+            }
+            
+  #leftfooter a.facebook:hover{
+                background-position: 2px 52px;
+            }
+            
+   #leftfooter         a.twitter{
+                background-position: 95px 0px;
+            }
+            
+  #leftfooter           a.twitter:hover{
+                background-position: 95px 52px;
+            }
+            
+   #leftfooter          a.youtube{
+                background-position: 42px 0px;
+            }
+            
+     #leftfooter        a.youtube:hover{
+                background-position: 42px 52px;
+            }
+            
+#rightfooter{
+     float:right;
+     width:410px;
+     height:35px;
+     margin-top:20px;
+}
+.email{
+    white-space:nowrap;
+    width:400px;
+     height:38px;
+      position:relative;
+     margin-bottom:0px;
+     
+
+}
+
+.email input#e-mail{
+  width: 360px;
+  height: 36px;
+  background-color: rgba(235,235,235,1);
+  border: none;
+  font-size: 8px;
+  padding-left: 20px;
+     position: absolute;
+     letter-spacing:4px;
+     margin-left:19px
+
+}
+
+
+.email button.icon{
+  border: none;
+  background: rgba(235,235,235,1) url(../images/mail.png)center no-repeat;
+  height: 35px;
+  width: 40px;
+  color: #4f5b66;
+     position:absolute;
+margin-left:355px
+     
+}
+.footermenu{
+     padding-top:30px;
+     width:1200px;
+     height:250px;
+     float:inherit;
+     font-family:"latobold";
+     color:white;
+     letter-spacing:3px;
+     font-size:14pt;
+     margin:0 auto;
+     
+}
+footer p{
+     width:200px;
+          margin:0 auto;
+     font-family:latoregular;
+     color:rgba(255,255,255,0.4);
+     font-size:8pt;
+     letter-spacing:3.5px;
+     margin-top:23px;
+     text-align: center;
+     
+}
+.footermenu ul{
+     list-style:none;
+     font-family:"latoregular";
+     font-size:13px;
+}
+.footermenu li{
+     letter-spacing:2.8px;
+line-height:22px;
+     
+}
+.footermenu ul a{
+     color:white;
+     text-decoration: none;
+}
+.footermenu ul a:hover{
+     text-decoration:underline;
+}
+#footermenu h5{
+     font-family:"latobold";
+}
+#aboutkppu{
+     float:left;
+     width:276px;
+     height:230px;
+     
+}
+#aboutkppu h5{
+     padding-left:10px;
+          letter-spacing:2.5px;
+     height:20px;
+}
+#aboutkppu ul{
+     padding-top:4px;
+     padding-left:10px;
+     width:210px
+     
+     
+}
+#legislation{
+     float:left;
+     width:210px;
+     height:230px;
+}
+#legislation h5{
+     letter-spacing:2.7px;
+     padding-left:5px;
+     height:20px;
+}
+#legislation ul{
+     padding-top:3px;
+     padding-left:4px;
+     width:160px
+}
+#policy{
+     float:left;
+     width:230px;
+     height:230px;
+     
+}
+#policy h5{
+     padding-left:10px;
+     letter-spacing:2.5px;
+}
+#policy ul{
+     padding-left:9px;
+     padding-top:2px;
+     width:200px
+     
+}
+#media{
+     float:left;
+     width:210px;
+     height:230px;
+
+}
+#media h5{
+     padding-left:36px;
+     letter-spacing:3px;
+     height:20px;
+     
+}
+#media ul{
+     padding-left:36px;
+     padding-top:4px;
+     
+}
+#contact{
+     float:left;
+     width:230px;
+     height:230px;
+}
+#contact h5{
+     padding-left:55px;
+     letter-spacing:2.8px;
+}
+#contact ul{
+     padding-left:53px;
+     padding-top:1px;
+}
+
+
